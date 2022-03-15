@@ -11,7 +11,7 @@ content=content
 %}
 {% include
 design_overview/sections/work_process.html
-sub_title="An overview of my UX-UI process"
+sub_title="An overview of my graphic design process"
 tools_left="Illustrator,Photoshop,Indesign"
 tools_right="Google drive,Trello,Sketching"
 work_title="My Study cases"
