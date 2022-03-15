@@ -4,6 +4,7 @@ permalink: /editorial/
 layout: study_case
 navbar-theme: black
 is_ux_work: false
+noindex: true
 ---
 {%
 include graphic_design.html
