@@ -7,7 +7,7 @@ navbar-theme: black
 <div class="container">
     <div class="col-2">
         <div class="home-heading">
-            <h1>
+            <h1 style="font-size:2.5vw">
                 Hej! I'm Olga a UX/UI designer based in Sweden.
             </h1>
             <p style="font-size: 1.5em">
@@ -31,7 +31,7 @@ navbar-theme: black
         <!-- <img src="assets/images/arrows-home.png" alt="" class="main-image"> -->
     </div>
     <div id="my-work" class="col-2 fade-in-thumbnails">
-        {% for study_case in site.study_cases reversed %}
+        {% for study_case in site.study_cases%}
             <a href="{{ study_case.url | relative_url}}">
                 <div class="thumbnail fade-in">
                     <img src="assets/images/{{ study_case.title }}/thumbnail.png" alt="">

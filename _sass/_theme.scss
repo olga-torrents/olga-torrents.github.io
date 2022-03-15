@@ -17,3 +17,11 @@ $blink-theme-color: #F8F6F3;
 $blink-accent-color: #FF8179;
 $blink-tertiary-color: #F8F6F3;
 $blink-light-color: #F8F6F3;
+
+::-moz-selection { /* Code for Firefox */
+  background: $blink-accent-color;
+}
+
+::selection {
+  background: $blink-accent-color;
+}
