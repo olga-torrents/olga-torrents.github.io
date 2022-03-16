@@ -10,6 +10,7 @@ noindex: true
 {%
 include graphic_design.html
 project_title="Documon"
+project_overview="Volunteer work for an NGO."
 overview_aspects="Client,My Role,Stakeholders,Key Tools"
 overview_explanations="Documon,Graphic Designer,Marketing management,Illustrator/Photoshop"
 %}

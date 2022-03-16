@@ -39,11 +39,11 @@ cover_image="cas_2.png"
 <div class="col-2 section-theme" style="text-align: center">
     <div>
         <b>Mood-board</b>
-        <img src="{{ site.url }}/assets/images/{{ page.title }}/cas_3.png" alt="" style="width: 100%; height: auto;">
+        <img src="{{ site.url }}/assets/images/{{ page.title }}/cas_3.png" alt="" style="width: 100%; height: auto; margin-top: 1em">
     </div>
     <div>
         <b>Sketches</b>
-        <img src="{{ site.url }}/assets/images/{{ page.title }}/cas_4.png" alt="" style="width: 100%; height: auto">
+        <img src="{{ site.url }}/assets/images/{{ page.title }}/cas_4.png" alt="" style="width: 100%; height: auto; margin-top: 1em">
     </div>
 </div>
 <img src="{{ site.url }}/assets/images/{{ page.title }}/cas_5.png" alt="" style="width: 100%; height: auto">

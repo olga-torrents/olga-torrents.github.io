@@ -28,6 +28,8 @@ Designing a logo that belongs to the same family as the Paris 21 brand logo and 
 Expanding the brand logo family. 
 
 {%endcapture%}
+{% comment %}
+<!--TODO: Rework this content-->
 {%
 include components/content_section.html
 title="ADAPT"
@@ -36,8 +38,11 @@ content=content
 cover_image="editorial_2.png"
 %}
 <div class="col-3 section-theme" style="text-align: center">
+    <b>Original Logotype</b>
+    <b>Versions</b>
+    <b>Final Version</b>
     <div>
-        <img src="{{ site.url }}/assets/images/{{ page.title }}/editorial_3.png" alt="" style="width: 100%; height: auto;">
+        <img src="{{ site.url }}/assets/images/{{ page.title }}/editorial_3.png" alt="" style="width: 100%; height: auto; ">
     </div>
     <div>
         <img src="{{ site.url }}/assets/images/{{ page.title }}/editorial_4.png" alt="" style="width: 100%; height: auto">
@@ -46,7 +51,7 @@ cover_image="editorial_2.png"
         <img src="{{ site.url }}/assets/images/{{ page.title }}/editorial_5.png" alt="" style="width: 100%; height: auto">
     </div>
 </div>
-
+{%endcomment%}
 {%capture content%}
 <h3 style="color:#EB5757">Layout / Editorial / Chart Design</h3>
 For this project I had to design the annual report for Paris 21.

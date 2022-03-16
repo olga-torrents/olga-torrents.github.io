@@ -1,10 +1,15 @@
 <div class="col-2"
 style="background-image: url('/assets/images/{{page.title}}/{{page.title}}-1152x532.png');
-background-size: contain; background-repeat: no-repeat; height: 50vh; ">
+background-size: contain; background-repeat: no-repeat; height: 40vh;
+background-position: center;
+margin-top: initial;
+">
 <div style="margin-top: auto">
     <h1>{{include.title}}</h1>
-    <p style="color: #EB5757">{{include.sub_title}}</p>
-    {{include.content | markdownify}}
+    <b style="color: #EB5757; font-size: 1.5em">{{include.sub_title}}</b>
+    <div style="font-size: 1.25em;">
+        {{include.content | markdownify}}
+    </div>
     <a href="#my-work" class="btn-link">
         <i class="fas fa-arrow-down"></i>
         Check my work

@@ -6,7 +6,16 @@
         {{include.content | markdownify}}
     </div>
     {%if include.cover_image%}
-    <img src="{{ site.url }}/assets/images/{{ page.title }}/{{include.cover_image}}" alt="" style="height: auto; width: 100%">
+    <div style="width: 100%; height: 100%;
+    background: url('{{ site.url }}/assets/images/{{ page.title }}/{{include.cover_image}}');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,.25));
+    {{include.cover_image_custom_styles}}
+">
+
+    </div>
     {%else%}
     <div class="diagram-default media-asset ">
         {%if include.slide_show_imgs%}

@@ -33,5 +33,6 @@ title=""
 is_themed_section=false
 content=content
 cover_image="vitavo_2.png"
+cover_image_custom_styles="filter: initial;"
 %}
 <img src="{{ site.url }}/assets/images/{{ page.title }}/vitavo_3.png" alt="" style="width: 100%; height: auto">

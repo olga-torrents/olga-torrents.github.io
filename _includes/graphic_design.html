@@ -1,12 +1,5 @@
-<div class="heading" style="margin-top: 7em">
-    <linebreak></linebreak>
-    <h1>Branding</h1>
-    <p>
-        Using empathy to understand the user's problem.
-    </p>
-</div>
 <div class="heading" style="margin-top: 3em">
-    <h2>{{include.project_title}}</h2>
+    <h1>{{include.project_title}}</h1>
     {%if include.project_overview%}
     <h3 style="width: 40ch; margin: auto; font-weight: normal">
         {{include.project_overview}}
@@ -20,7 +13,7 @@
     {%for i in (0..range_bound)%}
     <div>
         {{overview_aspects[i]}}
-        <linebreak></linebreak>
+        <linebreak style="margin-top: .5em; margin-bottom: .5em;"></linebreak>
         {{overview_explanations[i]}}
     </div>
     {%endfor%}
