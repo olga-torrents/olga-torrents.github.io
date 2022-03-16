@@ -1,6 +1,6 @@
 ---
 title: ux-design
-permalink: /way-of-working-ux-designer/
+## permalink: /way-of-working-ux-designer/
 layout: workflow
 navbar-theme: black
 is_ux_design: true

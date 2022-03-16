@@ -1,6 +1,6 @@
 ---
 title: graphic-design
-permalink: /way-of-working-graphic-designer/
+## permalink: /way-of-working-graphic-designer/
 layout: workflow
 navbar-theme: black
 ---
