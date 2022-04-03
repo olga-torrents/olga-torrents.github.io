@@ -13,7 +13,7 @@
                 {%assign range_bound=tools.size | minus: 1%}
                 {%for i in (0..range_bound)%}
                <div style="display: flex; align-items: center;margin-top: 1em; margin-bottom: 1em;">
-                   <img style="padding-right: 1em" src="{{ site.url }}/assets/images/common/tools/{{tools[i] | downcase | replace : ' ', '_'}}.svg" alt="">
+                   <img style="padding-right: 1em; height: 32px; width: auto" src="{{ site.url }}/assets/images/common/tools/{{tools[i] | downcase | replace : ' ', '_'}}.svg" alt="">
                    {{tools[i]}}
                </div>
                 {%endfor%}
@@ -25,7 +25,7 @@
                 {%assign range_bound=tools.size | minus: 1%}
                 {%for i in (0..range_bound)%}
                 <div style="display: flex; align-items: center;margin-top: 1em; margin-bottom: 1em;">
-                    <img style="padding-right: 1em" src="{{ site.url }}/assets/images/common/tools/{{tools[i] | downcase | replace : ' ', '_'}}.svg" alt="">
+                    <img style="padding-right: 1em; height: 32px; width: auto" src="{{ site.url }}/assets/images/common/tools/{{tools[i] | downcase | replace : ' ', '_'}}.svg" alt="">
                     {{tools[i]}}
                 </div>
                 {%endfor%}
